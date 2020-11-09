@@ -15,7 +15,7 @@ export default {
       {
         id: 2,
         name: "Kidoshoe",
-        description: "Colorfull kids' shoe shop selling many brands ranging from size infant to 4Y, plus socks & rain gear.",
+        description: "Colorful kids' shoe shop selling many brands ranging from size infant to 4Y, plus socks & rain gear.",
         address: "2438 W Anderson Ln, Austin, TX 78757",
         hours: "10AM–6PM",
         coordsLat: 30.358162,
