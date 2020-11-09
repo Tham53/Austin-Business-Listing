@@ -1,38 +1,44 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-list-item {
+  margin: auto 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login-form {
+  display: flex;
+  margin: 60px auto;
+  width: 60%;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.listingLink {
+  text-decoration-line: underline;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.login-button {
+  margin-top: 25px !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .App {
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  padding-inline-start: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
